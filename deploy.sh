@@ -24,4 +24,6 @@ terraform plan -out=tfplan
 echo " Aplicando infraestructura..."
 terraform apply tfplan
 
-echo " Despliegue completado, usar la ip que se encuentra arriba y ponerla en el navegador para hacer uso de la aplicacion"
+ip=$(terraform output -raw ip_publica)
+echo "contenedor corriendo en el puerto 80"
+echo "accede a la app en http://$ip"

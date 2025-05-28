@@ -68,3 +68,5 @@ Para destruir la infraestructura:
 ```bash
 ./destroy.sh
 ```
+
+## Porfavor tener paciencia, puesto a que se demora un poco en crear la infraestructura
