@@ -18,7 +18,7 @@ terraform validate
 
 #Planificar cambios,
 echo " Planificando cambios..."
-terraform plan 
+terraform plan -out=tfplan
 
 #Aplicar cambios,
 echo " Aplicando infraestructura..."
