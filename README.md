@@ -19,11 +19,11 @@ aws configure
 
 Esto solicitará:
 
-AWS Access Key ID
-AWS Secret Access Key
-AWS Session token (en caso de que sea por ejemplo un laboratorio)
-Default region name (por ejemplo: us-east-1)
-Default output format (puedes dejarlo vacío o usar json)
+AWS Access Key ID /
+ AWS Secret Access Key /
+ AWS Session token (en caso de que sea por ejemplo un laboratorio) /
+ Default region name (por ejemplo: us-east-1) /
+ Default output format (puedes dejarlo vacío o usar json)
 
 ---
 
